@@ -1,0 +1,30 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    overflow-x: hidden;
+}
+.header {
+    height: 45px;
+}
+.header-wrapper {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-title img {
+    width: 40px;
+    height: inherit;
+}
+.container {
+
+}
+.container-select {
+    display: flex;
+    flex-direction: column;
+}
+.container-select button {
+    width: 50px;
+}
+.selected {
+    background-color: seagreen;
+}
