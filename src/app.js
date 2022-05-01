@@ -92,6 +92,8 @@ const app = () => {
           e.target.value = '';
           e.target.placeholder =
             'Enter a positive number less than or equal to 255';
+          document.querySelector('#viewer-name').innerHTML = ``;
+          document.querySelector('#viewer-color').style = '';
         }
       });
     });
