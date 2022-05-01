@@ -28,7 +28,7 @@ const app = () => {
         </div>
         <div class="content-wrapper2">
           <div class="content-items2">
-            <div class="content-viewer-name" id="viewer-name">MIT License &copy; 2022 Cha Haneum</div>
+            <div class="content-viewer-name" id="viewer-name"></div>
           </div>
           <div class="content-items2">
             <div class="content-viewer-color" id="viewer-color"></div>
