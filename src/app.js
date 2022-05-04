@@ -44,7 +44,6 @@ const app = () => {
           e.target.value >= 0 &&
           e.target.value <= 255
         ) {
-          // console.log(Number(e.target.value));
           e.target.attributes.value.value = e.target.value;
           if (
             (document.querySelector('#R').attributes.class.ownerElement
@@ -90,8 +89,6 @@ const app = () => {
           }
         } else {
           e.target.value = '';
-          e.target.placeholder =
-            'Enter a positive number less than or equal to 255';
           document.querySelector('#viewer-name').innerHTML = ``;
           document.querySelector('#viewer-color').style = '';
         }
