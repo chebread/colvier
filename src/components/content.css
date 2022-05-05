@@ -13,7 +13,7 @@
   padding: 10px;
   box-sizing: border-box;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .content-items input[type="number"]::-webkit-outer-spin-button,
 .content-items input[type="number"]::-webkit-inner-spin-button {
@@ -38,7 +38,7 @@
 }
 .content-viewer-name {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .content-items2:nth-child(2) {
   height: 35px;
