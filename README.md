@@ -1,5 +1,5 @@
 # colvier
-This is RGB and Hash color checker.
+This is RGB and Hash color checker for Front-end developer.
 
 ## Website link
 [colvier](https://colvier.vercel.app)
